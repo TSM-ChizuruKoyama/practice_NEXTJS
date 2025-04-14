@@ -8,7 +8,6 @@ import {
   Revenue,
 } from "./definitions";
 import { formatCurrency } from "./utils";
-import { notFound } from "next/navigation";
 
 const sql = postgres(process.env.POSTGRES_URL!, { ssl: "require" });
 
